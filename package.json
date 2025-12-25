@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "production-project",
+=======
+  "name": "project",
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "webpack serve --env port=3000",
     "build:prod": "webpack  --env mode=production",
     "build:dev": "webpack  --env mode=development",
@@ -12,20 +17,30 @@
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "test": "jest"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --env port=3000",
+    "build:prod": "webpack --env mode=production",
+    "build:dev": "webpack --env mode=development"
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
     "@svgr/webpack": "^6.2.1",
+=======
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "@types/react-router-dom": "^5.3.3",
     "@types/webpack": "^5.28.0",
     "@types/webpack-dev-server": "^4.7.2",
+<<<<<<< HEAD
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "babel-loader": "^8.2.3",
@@ -41,16 +56,23 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.1",
+=======
+    "css-loader": "^6.6.0",
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
     "mini-css-extract-plugin": "^2.5.3",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
+<<<<<<< HEAD
     "stylelint": "^14.5.3",
     "stylelint-config-standard-scss": "^3.0.0",
+=======
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
     "ts-loader": "^9.2.6",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5",
     "webpack": "^5.69.1",
+<<<<<<< HEAD
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
@@ -61,6 +83,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.5",
+=======
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
     "react-router-dom": "^6.2.1"
   }
 }

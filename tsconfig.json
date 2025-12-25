@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
+<<<<<<< HEAD
     // Подсвечивает все места где не указан тип
     // Однако это не означает, что теперь вовсе нельзя использовать any.
     // Это означает лишь, что в подобных ситуация разработчик должен явно писать any,
@@ -32,10 +33,25 @@
     // можно писать такой
     // import React from 'react';
     "allowSyntheticDefaultImports": true
+=======
+    "noImplicitAny": true,
+    "module": "es2022",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
   },
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf

@@ -1,3 +1,10 @@
 /build
+<<<<<<< HEAD
 node_modules
 .idea
+=======
+
+node_modules
+
+.idea
+>>>>>>> 6374e2689713849f5b9ac55c7d8b9401ea971bdf
